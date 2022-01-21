@@ -1,0 +1,15 @@
+[package]
+name = "dudos-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["mrott"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+url = "2.2.2"
+futures = "0.3.19"
+reqwest = "0.11.9"
+tokio = { version = "1.15.0", features = ["macros", "rt-multi-thread"] }
