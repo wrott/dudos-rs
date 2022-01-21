@@ -1,3 +1,3 @@
 # dudos-rs
 Simple example
-for education purposes
+for education purposes only
